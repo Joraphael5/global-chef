@@ -1,0 +1,1041 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 375px;
+  font-family: "Poppins", sans-serif;
+}
+
+.pro0 {
+  background-color: rgb(75, 130, 148);
+  text-align: center;
+  font-size: small;
+  height: 40px;
+}
+
+.pro1 a {
+  color: white;
+  text-decoration: none;
+}
+
+.pro2 {
+  width: 150px;
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+.pro3 {
+  float: right;
+  position: relative;
+  right: 220px;
+  bottom: 100px;
+  padding: 15px;
+}
+
+.pro4 {
+  float: right;
+  position: relative;
+  right: 145px;
+  bottom: 85px;
+}
+
+.pro5 {
+  float: right;
+  position: relative;
+  right: 90px;
+  bottom: 86px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: block;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* .active {
+  background-color: #04aa6d;
+  color: white;
+} */
+/* 
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+/* .text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+} */
+
+/* .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+} */
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+
+.pro6 {
+  text-align: center;
+  font-weight: bolder;
+  /* padding: 10px; */
+}
+
+.pro7 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.pro8 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.pro9 {
+  text-align: center;
+  padding: 10px;
+}
+
+.pro10 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.pro11 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.btn-5 {
+  background-color: rgb(75, 130, 148);
+  color: whitesmoke;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.btn-6 {
+  background-color: rgb(75, 130, 148);
+  color: whitesmoke;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.btn-4 {
+  background-color: rgb(75, 130, 148);
+  color: whitesmoke;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.btn-3 {
+  background-color: rgb(75, 130, 148);
+  color: whitesmoke;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.btn-1 {
+  background-color: rgb(75, 130, 148);
+  color: whitesmoke;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.btn-2 {
+  background-color: rgb(75, 130, 148);
+  color: whitesmoke;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.container1 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.pro13 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  padding: -10px;
+  /* columns: 10px; */
+  box-sizing: content-box;
+  border: 100px;
+}
+
+.pro14 {
+  margin-left: 80px;
+  padding: 10px;
+}
+
+.pro15 {
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/GBC7.png);
+  color: #fff;
+  padding: 6rem;
+  background-repeat: no-repeat;
+  height: 100px;
+  margin-bottom: 100px;
+  width: 40px;
+  height: 30px;
+}
+
+.pro16 {
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/GBC12.png);
+  color: #fff;
+  padding: 6rem;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 40px;
+  position: relative;
+  right: 5px;
+  height: 30px;
+}
+
+.pro17 {
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/GBC6.jpg);
+  color: #fff;
+  padding: 6rem;
+  margin-bottom: 100px;
+  position: relative;
+  bottom: 70px;
+  width: 40px;
+  height: 30px;
+}
+
+.pro18 {
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/GBC13.jpg);
+  color: #fff;
+  padding: 6rem;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+  width: 40px;
+  position: relative;
+  bottom: 70px;
+  right: 5px;
+  height: 30px;
+}
+
+.pro19 {
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/GBC11.jpg);
+  color: #fff;
+  padding: 6rem;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+  position: relative;
+  bottom: 140px;
+  width: 40px;
+  height: 30px;
+}
+
+.pro20 {
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/GBC5.jpg);
+  color: #fff;
+  padding: 6rem;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+  width: 40px;
+  position: relative;
+  bottom: 140px;
+  right: 5px;
+  height: 30px;
+}
+
+.pro21 {
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/GBC4.png);
+  color: #fff;
+  padding: 6rem;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+  width: 40px;
+  position: relative;
+  bottom: 210px;
+  height: 30px;
+}
+
+.pro22 {
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/GBC14.png);
+  color: #fff;
+  padding: 6rem;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+  width: 40px;
+  position: relative;
+  bottom: 210px;
+  right: 5px;
+  height: 30px;
+}
+
+.pro23 {
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/GBC9.jpg);
+  color: #fff;
+  padding: 6rem;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+  width: 40px;
+  position: relative;
+  bottom: 280px;
+  height: 30px;
+}
+
+.pro24 {
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/GBC2.jpg);
+  color: #fff;
+  padding: 6rem;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+  width: 40px;
+  position: relative;
+  bottom: 280px;
+  right: 5px;
+  height: 30px;
+}
+
+.pro25 {
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/GBC8.jpg);
+  color: #fff;
+  padding: 6rem;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+  width: 40px;
+  position: relative;
+  bottom: 350px;
+  height: 30px;
+}
+
+.pro26 {
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/GBC10.jpg);
+  color: #fff;
+  padding: 6rem;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+  width: 40px;
+  position: relative;
+  bottom: 350px;
+  right: 5px;
+  height: 30px;
+}
+
+/* .pro27 {
+  border-radius: 20px;
+  border: 10px;
+  height: 200px;
+}
+
+.pro28 {
+  border-radius: 20px;
+  border: 10px;
+  height: 200px;
+}
+
+.pro29 {
+  border-radius: 20px;
+  border: 10px;
+  height: 200px;
+}
+
+.pro30 {
+  border-radius: 20px;
+  border: 10px;
+  height: 200px;
+}
+
+.pro31 {
+  border-radius: 20px;
+  border: 10px;
+  height: 200px;
+}
+
+.pro32 {
+  border-radius: 20px;
+  border: 10px;
+  height: 200px;
+}
+
+.pro33 {
+  border-radius: 20px;
+  border: 10px;
+  height: 200px;
+}
+
+.pro34 {
+  border-radius: 20px;
+  border: 10px;
+  height: 200px;
+}
+
+.pro35 {
+  border-radius: 20px;
+  border: 10px;
+  height: 200px;
+}
+
+.pro36 {
+  border-radius: 20px;
+  border: 10px;
+  height: 200px;
+}
+
+.pro37 {
+  border-radius: 20px;
+  border: 10px;
+  height: 200px;
+}
+
+.pro38 {
+  border-radius: 20px;
+  border: 10px;
+  height: 200px;
+} */
+
+.pro27 {
+  position: relative;
+  bottom: 400px;
+}
+
+.pro28 {
+  font-weight: bolder;
+  padding-left: 10px;
+}
+
+.btn-7 {
+  background-color: rgb(75, 130, 148);
+  color: whitesmoke;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.pro29 {
+  position: relative;
+  bottom: 350px;
+}
+
+.pro30 {
+  margin-left: 100px;
+  font-weight: bold;
+}
+
+.pro43 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  padding: -10px;
+}
+
+.pro32 {
+  font-weight: bolder;
+  margin-left: 20px;
+}
+
+.pro33 {
+  color: gray;
+  padding-bottom: 20px;
+  margin-left: 20px;
+}
+
+.pro35 {
+  font-weight: bolder;
+  margin-left: 20px;
+}
+
+.pro36 {
+  color: gray;
+  margin-left: 20px;
+}
+
+.pro38 {
+  font-weight: bolder;
+  margin-left: 20px;
+}
+
+.pro39 {
+  color: gray;
+  margin-left: 20px;
+}
+
+.pro41 {
+  font-weight: bolder;
+  margin-left: 20px;
+}
+
+.pro42 {
+  color: gray;
+  margin-left: 20px;
+}
+
+.btn-8 {
+  background-color: rgb(75, 130, 148);
+  color: whitesmoke;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  margin-left: 200px;
+  margin-top: 80px;
+}
+
+.pro44 {
+  position: relative;
+  bottom: 300px;
+  background-color: rgb(248, 245, 245);
+}
+
+.pro59 {
+  margin-left: 20px;
+}
+
+.pro45 a {
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.pro47 {
+  margin-left: 20px;
+}
+
+.pro48 a {
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.pro60 {
+  margin-left: 20px;
+}
+
+.pro50 a {
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.pro51 {
+  margin-left: 20px;
+  padding: 30px;
+}
+
+.pro61 {
+  margin-left: 20px;
+}
+
+/* Style the search field */
+form.pro52 input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  /* float: left; */
+  width: 60%;
+  background: white;
+}
+
+/* Style the submit button */
+form.pro52 button {
+  /* float: left; */
+  width: 30%;
+  padding: 10px;
+  background: rgb(73, 116, 131);
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  position: relative;
+  right: 10px;
+}
+
+.pro62 {
+  position: relative;
+  bottom: 310px;
+  /* border: 10px; */
+  background-color: rgb(241, 237, 237);
+  padding: 100px;
+}
+
+.pro53 {
+  position: absolute;
+  left: 180px;
+  top: 20px;
+}
+
+.pro54 {
+  position: absolute;
+  left: 230px;
+  top: 20px;
+}
+
+.pro55 {
+  position: absolute;
+  left: 280px;
+  top: 20px;
+}
+
+.pro56 {
+  position: absolute;
+  top: 60px;
+}
+
+.pro58 {
+  position: absolute;
+  bottom: 10px;
+}
+
+.pro57 {
+  position: absolute;
+  left: 160px;
+}
+
+@media (min-width: 576px) {
+  .fade {
+    /* background: linear-gradient(to right, #4892a6, #8460b3); */
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url(/images/GBC2.jpg);
+    color: #fff;
+    padding: 6rem;
+  }
+
+  .pro13 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    padding: 50px;
+    /* columns: 10px; */
+    box-sizing: content-box;
+    border: 100px;
+    position: relative;
+    right: 40px;
+  }
+
+  .pro14 {
+    text-align: center;
+  }
+
+  .pro15 {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(/images/GBC7.png);
+    color: #fff;
+    padding: 6rem;
+    background-repeat: no-repeat;
+    height: 100px;
+    margin-bottom: 150px;
+    width: 40px;
+    height: 30px;
+  }
+
+  .pro16 {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(/images/GBC12.png);
+    color: #fff;
+    padding: 6rem;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 40px;
+    position: relative;
+    right: 5px;
+    height: 30px;
+  }
+
+  .pro17 {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(/images/GBC6.jpg);
+    color: #fff;
+    padding: 6rem;
+    margin-bottom: 150px;
+    position: relative;
+    bottom: 1px;
+    width: 40px;
+    height: 30px;
+  }
+
+  .pro18 {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(/images/GBC13.jpg);
+    color: #fff;
+    padding: 6rem;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    width: 40px;
+    position: relative;
+    bottom: 2px;
+    right: 5px;
+    height: 30px;
+  }
+
+  .pro19 {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(/images/GBC11.jpg);
+    color: #fff;
+    padding: 6rem;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    position: relative;
+    bottom: 140px;
+    width: 40px;
+    height: 30px;
+  }
+
+  .pro20 {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(/images/GBC5.jpg);
+    color: #fff;
+    padding: 6rem;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    width: 40px;
+    position: relative;
+    bottom: 140px;
+    right: 5px;
+    height: 30px;
+  }
+
+  .pro21 {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(/images/GBC4.png);
+    color: #fff;
+    padding: 6rem;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    width: 40px;
+    position: relative;
+    bottom: 140px;
+    height: 30px;
+  }
+
+  .pro22 {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url(/images/GBC14.png);
+    color: #fff;
+    padding: 6rem;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    width: 40px;
+    position: relative;
+    bottom: 140px;
+    right: 5px;
+    height: 30px;
+  }
+
+  .pro23 {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(/images/GBC9.jpg);
+    color: #fff;
+    padding: 6rem;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    width: 40px;
+    position: relative;
+    bottom: 280px;
+    height: 30px;
+  }
+
+  .pro24 {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(/images/GBC2.jpg);
+    color: #fff;
+    padding: 6rem;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    width: 40px;
+    position: relative;
+    bottom: 280px;
+    right: 5px;
+    height: 30px;
+  }
+
+  .pro25 {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(/images/GBC8.jpg);
+    color: #fff;
+    padding: 6rem;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    width: 40px;
+    position: relative;
+    bottom: 280px;
+    height: 30px;
+  }
+
+  .pro26 {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(/images/GBC10.jpg);
+    color: #fff;
+    padding: 6rem;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    width: 40px;
+    position: relative;
+    bottom: 280px;
+    height: 30px;
+    right: 5px;
+  }
+
+  .pro27 {
+    width: 50%;
+  }
+
+  .pro28 {
+    position: relative;
+    left: 490px;
+    bottom: 220px;
+  }
+
+  .pro29 {
+    position: relative;
+    bottom: 500px;
+  }
+
+  .pro30 {
+    margin-left: 350px;
+  }
+
+  .pro43 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    padding: -10px;
+  }
+
+  .btn-8 {
+    position: relative;
+    left: 200px;
+  }
+
+  .pro44 {
+    position: relative;
+    bottom: 500px;
+    background-color: rgb(248, 245, 245);
+  }
+
+  .pro46 {
+    position: relative;
+    margin-left: 250px;
+    bottom: 650px;
+  }
+
+  .pro49 {
+    position: relative;
+    margin-left: 250px;
+    bottom: 580px;
+  }
+
+  /* Style the search field */
+  form.pro52 input[type="text"] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    /* float: left; */
+    width: 60%;
+    background: white;
+  }
+
+  /* Style the submit button */
+  form.pro52 button {
+    /* float: left; */
+    width: 30%;
+    padding: 10px;
+    background: rgb(73, 116, 131);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    position: relative;
+    right: 10px;
+  }
+
+  .pro51 {
+    position: relative;
+    margin-left: 500px;
+    bottom: 800px;
+  }
+
+  .pro62 {
+    position: relative;
+    bottom: 900px;
+  }
+
+  .pro53 {
+    position: absolute;
+    left: 60px;
+    top: 20px;
+  }
+
+  .pro54 {
+    position: absolute;
+    left: 110px;
+    top: 20px;
+  }
+
+  .pro55 {
+    position: absolute;
+    left: 160px;
+    top: 20px;
+  }
+
+  .pro56 {
+    position: absolute;
+    bottom: 150px;
+    left: 600px;
+  }
+
+  .pro57 {
+    position: absolute;
+    left: 600px;
+  }
+}

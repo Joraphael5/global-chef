@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body class="container">
+    <div class="pro0">
+      <p class="pro1">
+        <a href="#enjoy promo codes for great deals at checkout"
+          >Enjoy Promo Codes for Great deals at<br />
+          checkout</a
+        >
+      </p>
+    </div>
+
+    <div>
+      <img class="pro2" src="images/Global chef logo 2.jpg" alt="" />
+    </div>
+
+    <!-- Simulate a smartphone / tablet -->
+    <!-- <div class="mobile-container"> -->
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="#home" class="active">Home</a>
+      <div id="myLinks">
+        <a href="#catalog">Catalog</a>
+        <a href="#collections">Collections</a>
+        <a href="#promo codes">Promo Codes</a>
+      </div>
+      <a href="#" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+
+    <div class="pro3">
+      <i class="fa fa-search" style="font-size: 20px"></i>
+    </div>
+
+    <div class="pro4">
+      <i class="fa fa-light fa-user" style="font-size: 20px"></i>
+    </div>
+
+    <div class="pro5">
+      <i class="fa fa-shopping-bag" style="font-style: 20px"></i>
+    </div>
+
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <!-- <div class="numbertext"></div> -->
+        <img src="IMAGES/GBC2.jpg" style="width: 100%" />
+        <!-- <div class="text">Caption Text</div> -->
+        <div class="pro6">
+          <h2 class="pro12">Cool Collection</h2>
+          <p>Short Sleeves and Light Weight Options</p>
+          <button class="btn-1">Show Me</button>
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <!-- <div class="numbertext"></div> -->
+        <img src="images/GBC3.jpg" style="width: 100%" />
+        <!-- <div class="text">Caption Two</div> -->
+        <div class="pro7">
+          <h2>Black Collections</h2>
+          <p>Modern & Traditional Chef Jackets</p>
+          <button class="btn-2">Show Me</button>
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <!-- <div class="numbertext"></div> -->
+        <img src="images/chef cooking 3.jpg" style="width: 100%" />
+        <!-- <div class="text">Caption Three</div> -->
+        <div class="pro8">
+          <h2>FREE Shipping Australia Wide</h2>
+          <p>Spend over $199 and use code:<br />WOW199 at the checkout</p>
+          <button class="btn-3">Show Me Collections</button>
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <!-- <div class="numbertext"></div> -->
+        <img src="images/GBC1.jpg" style="width: 100%" />
+        <!-- <div class="text">Caption Three</div> -->
+        <div class="pro9">
+          <button class="btn-4">Love Low Prices?</button>
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <!-- <div class="numbertext"></div> -->
+        <img src="images/chef cooking 5.jpg" style="width: 100%" />
+        <!-- <div class="text">Caption Three</div> -->
+        <div class="pro10">
+          <h2>Want to be a real Chef one day?</h2>
+          <p>You will need a better apron than that!</p>
+          <button class="btn-5">
+            Check out our real chefs<br />
+            aprons
+          </button>
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <!-- <div class="numbertext"></div> -->
+        <img src="images/chef cooking.jpg" style="width: 100%" />
+        <!-- <div class="text">Caption Three</div> -->
+        <div class="pro11">
+          <h2>What is our story?</h2>
+          <p>Designed by chefs for chefs is how we started</p>
+          <button class="btn-6">ABOUT US</button>
+        </div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
+
+    <div class="container">
+      <h2 class="pro14">TODAYS COLLECTION LIST</h2>
+      <div class="pro13">
+        <div class="pro15">
+          <!-- <img
+              class="pro27"
+              src="images/GBC7.png"
+              style="width: 100%"
+              height=""
+            /> -->
+          <p>Modern Jackets</p>
+        </div>
+        <div class="pro16">
+          <!-- <img
+              class="pro28"
+              src="images/GBC12.png"
+              style="width: 100%"
+              height=""
+            /> -->
+          <p>Back to Black</p>
+        </div>
+        <div class="pro17">
+          <!-- <img
+              class="pro29"
+              src="images/GBC6.jpg"
+              style="width: 100%"
+              height="60%"
+            /> -->
+          <p>Chef Pants</p>
+        </div>
+        <div class="pro18">
+          <!-- <img
+              class="pro30"
+              src="images/GBC13.jpg"
+              style="width: 100%"
+              height=""
+            /> -->
+          <p>Cool Jackets</p>
+        </div>
+        <div class="pro19">
+          <!-- <img
+              class="pro31"
+              src="images/GBC11.jpg"
+              style="width: 100%"
+              height=""
+            /> -->
+          <p>Chef Revival</p>
+        </div>
+
+        <div class="pro20">
+          <!-- <img
+              class="pro32"
+              src="images/GBC5.jpg"
+              style="width: 100%"
+              height=""
+            /> -->
+          <p>Aprons</p>
+        </div>
+        <div class="pro21">
+          <!-- <img
+              class="pro33"
+              src="images/GBC4.png"
+              style="width: 100%"
+              height="%"
+            /> -->
+          <p>Traditional Jackets</p>
+        </div>
+        <div class="pro22">
+          <!-- <img
+              class="pro34"
+              src="images/GBC14.png"
+              style="width: 100%"
+              height="%"
+            /> -->
+          <p>Value Jackets</p>
+        </div>
+        <div class="pro23">
+          <!-- <img
+              class="pro35"
+              src="images/GBC9.jpg"
+              style="width: 100%"
+              height="%"
+            /> -->
+          <p>Chef Shoes,<br />Clogs and Boots</p>
+        </div>
+        <div class="pro24">
+          <!-- <img
+              class="pro36"
+              src="images/GBC2.jpg"
+              style="width: 100%"
+              height="%"
+            /> -->
+          <p>Chef Hats</p>
+        </div>
+        <div class="pro25">
+          <!-- <img
+              class="pro37"
+              src="images/GBC8.jpg"
+              style="width: 100%"
+              height="%"
+            /> -->
+          <p>Full Set Under<br />$99</p>
+        </div>
+        <div class="pro26">
+          <!-- <img
+              class="pro38"
+              src="images/GBC10.jpg"
+              style="width: 100%"
+              height="%"
+            /> -->
+          <p>Tool bags,<br />neckerchiefs,<br />buttons</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="pro27">
+      <img src="images/GBC15.jpg" style="width: 100%" />
+      <div class="pro28">
+        <h2>Student SPECIAL</h2>
+        <p>Full uniform sets always on SALE NOW for a great saving!</p>
+        <button class="btn-7">Take a Look</button>
+      </div>
+    </div>
+
+    <div class="pro29">
+      <h2 class="pro30">FEATURED COLLECTION</h2>
+      <div class="pro43">
+        <div class="pro31">
+          <img src="images/GBC18.jpg" />
+          <p class="pro32">BRIGADE by Global<br />Chef Uniform Kit</p>
+          <p class="pro33">$79.00</p>
+        </div>
+
+        <div class="por34">
+          <img src="images/GBC16.jpg" />
+          <p class="pro35">
+            GLOBAL CHEF KIT 3-<br />Short Sleeve and Bib<br />Apron
+          </p>
+          <p class="pro36">$98.00</p>
+        </div>
+
+        <div class="pro37">
+          <img src="images/GBC17.jpg" />
+          <p class="pro38">GLOBAL E-COMBO Kit</p>
+          <p class="pro39">$79.00</p>
+        </div>
+
+        <div class="pro40">
+          <img src="images/GBC19.jpg" />
+          <p class="pro41">GLOBAL CHEF KIT 2 -<br />with Bib Apron</p>
+          <p class="pro42">$98.00</p>
+        </div>
+      </div>
+      <button class="btn-8">VIEW ALL</button>
+    </div>
+
+    <div>
+      <footer class="pro44">
+        <h3 class="pro59">Quick Links</h3>
+        <p class="pro45">
+          <a href="co-vid19"> Co-Vid19<br /><br /></a>
+          <a href="about">About<br /><br /></a>
+          <a href="faq">FAQ<br /><br /></a>
+          <a href="shipping">Shipping<br /><br /></a>
+          <a href="exchanges and refunds">Exchanges and Refunds<br /><br /></a>
+          <a href="size charts">Size Charts<br /><br /></a>
+          <a href="privacy">Privacy<br /><br /></a>
+          <a href="Terms">Terms<br /><br /></a>
+          <a href="blog">Blog<br /><br /></a>
+          <a href="collections">Collections<br /><br /></a>
+          <a href="search">Search<br /><br /></a>
+          <a href="contact us">Contact us<br /><br /><br /></a>
+        </p>
+
+        <div class="pro46">
+          <h3 class="pro47">Trading Options</h3>
+          <p class="pro48">
+            <a href="online orders only">Online Orders Only</a>
+          </p>
+        </div>
+
+        <div class="pro49">
+          <h3 class="pro60">Contact us</h3>
+          <p class="pro50">
+            <a href="helpdesk@globalchef.com.au"
+              >helpdesk@globalchef.com.au<br
+            /></a>
+            <a href="phone 04 5058 9690">Phone 04 5058 9690<br /></a>
+          </p>
+        </div>
+
+        <div class="pro51">
+          <h3 class="pro61">News Letter</h3>
+          <!-- The form -->
+          <form class="pro52" action="services.html">
+            <input
+              type="text"
+              placeholder="Email Address"
+              name="Email Addresss"
+            />
+            <button type="subscribe">subscribe</button>
+          </form>
+        </div>
+      </footer>
+    </div>
+
+    <footer class="pro62">
+      <div class="pro53">
+        <i class="fab fa fa-facebook-square" style="font-size: 24px"></i>
+      </div>
+
+      <div class="pro54">
+        <i class="fab fa fa-instagram" style="font-size: 24px"></i>
+      </div>
+
+      <div class="pro55">
+        <i class="fab fa fa-youtube" style="font-size: 24px"></i>
+      </div>
+
+      <div class="pro56">
+        <img src="images/apple pay.jpg" alt="" width="50px" height="25px" />
+        <img src="images/google pay.jpg" alt="" width="50px" height="25px" />
+        <img src="images/PayPal2.png" alt="" width="50px" height="25px" />
+        <img src="images/shop-pay.jpg" alt="" width="50px" height="25px" />
+        <img src="images/visa.jpg" alt="" width="50px" height="25px" />
+      </div>
+
+      <div>
+        <div class="pro57">
+          <img
+            src="images/shopify secure.png"
+            alt=""
+            width="150px"
+            height="50px"
+          />
+        </div>
+
+        <div class="pro58">
+          <i class="fa fa-light fa-copyright">
+            2022,Global Chef ABN 48391577973</i
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
